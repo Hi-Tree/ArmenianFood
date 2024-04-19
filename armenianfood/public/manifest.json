@@ -1,0 +1,25 @@
+{
+  "short_name": "Ella's Armenian Kitchen",
+  "name": "Home made Armenian food from Ella's kitchen to yours.",
+  "icons": [
+    {
+      "src": "armlogo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "armlogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "armlogo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
