@@ -1,0 +1,16 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 100%;
+}
+
+.left{
+    background-color: azure;
+}
+
+.right{
+    background-color: pink;
+    position: relative;
+}

@@ -1,0 +1,29 @@
+.imagcontainer{
+    width: 263px;
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+.disp{
+    display: none;
+}
+
+.imag:hover {
+    filter: brightness(1.2); /* Increases the brightness */
+    transform: scale(1.05); /* Scales the image slightly */
+    border: 2px solid #ffcc00; /* Adds a border */
+}
+.imagcontainer:hover .disp {
+    display: block; /* Shows the .disp element on hover */
+    position: absolute;
+    top: 0cm;
+    right: 0cm;
+}
